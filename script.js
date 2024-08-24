@@ -10,7 +10,7 @@ const flag2 = document.querySelector("#flag2")
 const valorPlaceHolder = document.getElementById('input-currency')
 
 
-convertSelect.addEventListener('change', mudarValor1)
+//convertSelect.addEventListener('change', mudarValor1)
 currencySelect.addEventListener('change', mudarValor2)
 btn.addEventListener('click', convertButton)
 
