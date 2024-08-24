@@ -1,0 +1,74 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Money.Cãmbio | Gabriel Milbradt</title>
+</head>
+
+
+
+<body>
+   
+    <img class="logo1" src="../../assets/Logo.Cambio.jpeg" alt="logo-money-cambio">
+
+
+    <main>
+        <img class="logo2" src="../../assets/logo-1.gif" alt="logo-money">
+        <label>
+            Converter <b>de:</b>
+            <select id="convert-select" class="select">
+                <option value="real1">R$ Real Brasileiro</option>
+                <option value="dolar1">US$ Dólar</option>
+                <option value="euro1">€ Euro</option>
+                <option value="libra1">£ Libra</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para:</b>
+            <select id="currency-select" class="select">
+                <option value="dolar2">US$ Dólar</option>
+                <option value="euro2">€ Euro</option>
+                <option value="libra2">£ Libra</option>
+                <option value="real2">R$ Real Brasileiro</option>
+                
+            </select>
+        </label>
+
+        <label>
+            <span>Valor</span><input id="input-currency" placeholder="R$ 0,00" >
+        </label>
+
+        <button id='btn'>Converter</button>
+
+        <section id="results-box">
+
+            <div class="flags">
+                <img class="currency-img1" src="../../assets/real.png" alt="real" id="flag1">
+                <p id="p1">Real</p>
+                <p id="valor1">R$ 0,00</p>
+            </div>
+
+            <img class="arrow-img" src="../../assets/arrow.png" alt="seta">
+
+            <div class="flags">
+                <img class="currency-img" src="../../assets/dolar.png" alt="logo-moeda-a-convertida">
+                <p id="p2">Dólar</p>
+                <p id="valor2">$ 0,00</p>
+            </div>
+        </section>
+    </main>
+    <footer id="rodape">
+
+        <a href="https://www.instagram.com/gabriel_milbradt?igsh=MWljeG5sYnc5bG8yYQ%3D%3D&utm_source=qr" id="link-insta" target="_blank">
+            Created By: @gabriel_milbradt
+        </a>
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+
+
+</html>
