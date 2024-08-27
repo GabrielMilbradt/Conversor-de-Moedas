@@ -11,9 +11,9 @@ body {
 }
 
 .logo1 {
-  width: 260px;
+  width: 240px;
   display: block;
-  margin: 2px auto;
+  margin: 1px auto;
 }
 
 .logo2 {
@@ -119,10 +119,11 @@ section {
   cursor: pointer;
   background-color: black;
   text-align: center;
+  font-weight: 700;
   font-size: 20px;
   width: 100%;
   text-decoration: none;
-  margin: 10px auto;
+  margin: 5px auto 30px;
 }
 #rodape::selection {
   background-color: transparent;
